@@ -2,7 +2,7 @@
 int count = 0; //이동횟수를 저장할 변수 선언
 void hanoitop(int num, char start, char mid, char to) {
 	
-	if (num == 1) //입력된 원판의 개수가 1개면 A에서 C로 옮기면 끝이므로 
+	if (num == 1) //원판의 개수가 1개면 A에서 C로 옮기면 끝이므로 
 		printf_s("%c에서 %c로 이동\n", start, to); //start에서 to로의 이동을 출력 
 	else {
 		//하노이탑 공식을 살펴보면 n개의 원판 중에서 1개 빼고 시작지점(start)에서 전부를 중간 지점(mid)으로 옮기고,
